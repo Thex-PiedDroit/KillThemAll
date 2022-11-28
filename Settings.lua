@@ -1,5 +1,5 @@
 
-g_cerberus.RegisterAddon("KillThemAll", { "S_ktaGlobalSettings", "S_ktaCharSpecificOverrides", "S_sAddonVersion" });
+Cerberus_HookThisFile();
 
 g_ktaCurrentCharSettingsOverrides = nil;
 g_ktaCurrentSettings = {};
@@ -35,13 +35,13 @@ local l_ktaDefaultSettings =
 {
 	m_default =
 	{
-		m_sGods = "YSHAARJ",
+		m_sGods = g_allSoundLibraries[1].m_sDataName,
 		m_sSoundChannel = "Dialog",
 		m_iMinDelay = 300,
 		m_iMaxDelay = 1200,
 	},
 
-	m_sGods = "YSHAARJ",
+	m_sGods = g_allSoundLibraries[1].m_sDataName,
 	m_sSoundChannel = "Dialog",
 	m_iMinDelay = 300,
 	m_iMaxDelay = 1200,
