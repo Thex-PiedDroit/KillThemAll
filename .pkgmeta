@@ -1,0 +1,6 @@
+package-as: KillThemAll
+
+ignore:
+    - .git
+    - .gitignore
+    - README.md
