@@ -1,6 +1,6 @@
-## Interface: 30400
+## Interface: 11502
 ## Title: |cff00ccffKillThemAll|r
-## Version: 1.6.3
+## Version: 1.6.4
 ## Notes: Randomly plays Old Gods whispers audio files
 ## Author: Thex
 ## DefaultState: enabled
